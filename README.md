@@ -48,7 +48,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Dice Art is a unique form of artistic expression that involves creating intricate designs or images using dice as the primary medium. By arranging and manipulating dice in various patterns, artists produce visually captivating pieces that not only showcase creative prowess but also highlight the intersection of gaming culture and visual arts, offering a fresh perspective on the role of randomness and chance in our society. In this project, a user is able to upload an image of their choice and have it visualized using only the six sides of a regular die through leveraging `Python`'s imaging library (PIL) and `StreamLit` capabilities. 
+Dice Art is a unique form of artistic expression that involves creating intricate designs or images using dice as the primary medium. By arranging and manipulating dice in various patterns, artists produce visually captivating pieces that not only showcase creative prowess but also highlight the intersection of gaming culture and visual arts, offering a fresh perspective on the role of randomness and chance in our society. In this project, a user is able to upload an image of their choice and have it visualized using only the six sides of a regular die through leveraging `Python`'s imaging library (`PIL`) and `StreamLit` capabilities. 
+
+<br />
+<div align="center">
+  <a href="https://github.com/v5run/DiceArt.io/">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,8 +64,8 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 
 ## Built With
 
-* [![Python](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9-45a3ff?style=Plastic&logo=Python&logoColor=042e8a)](https://www.python.org/)
-* [![StreamLit](https://img.shields.io/badge/Streamlit-faf7f7?style=Plastic&logo=Streamlit&logoColor=fa231b)](https://streamlit.io/)
+* [![Python](https://img.shields.io/badge/Python_3.12-faee02?style=for-the-badge&logo=Python&logoColor=042e8a)](https://www.python.org/)
+* [![Streamlit](https://img.shields.io/badge/Streamlit-faf7f7?style=for-the-badge&logo=Streamlit&logoColor=fa231b)](https://streamlit.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
