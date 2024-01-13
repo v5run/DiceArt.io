@@ -32,13 +32,13 @@
     <li>
       <a href="#functionality">Functionality</a>
       <ul>
-        <li><a href="#opening-the-door">Opening the Door</a></li>
-        <li><a href="#alarm-system">Alarm System</a></li>
-        <li><a href="#changing-the-combination">Changing the Combination</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#python-procedure">Python Procedure</a></li>
       </ul>
     </li>
-    <li><a href="#seven-segment-display">Seven-Segment-Display</a></li>
-    <li><a href="#moore-fsm-state-design">Moore FSM State Design</a></li>
+    <li><a href="#interface">Interface</a></li>
+    <li><a href="#pseudocode">Pseudocode</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -80,14 +80,14 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 * User-friendly Interface (Streamlit functionalities)
 * Interface utilizes visual effects such as progress bars, on-screen animations, and alerts.
 
-### Procedure - Python
+### Python Procedure
 
 * Image Resizing -> Resize images so dice will fit evenly on the canvas.
 * Creating a canvas -> Create a new canvas, scaled up to account for the size of the die, with image resizing accounted.
 * Greyscaling -> Sectioning parts of the picture off of HEX-value brightness with the help of greyscaling.
 * "Dicing" -> Implement dice in parts of the picture to represent certain brightness levels, with a one-sided die having the lowest brightness and 5 & 6 having the most.
 
-## Streamlit
+## Interface
 
 * Minimalistic user-interface, requiring little-to-no effort to use, simply Drag & Drop!
 * Interface will illustrate a loading bar, visual animations, and a success bar when finished.
@@ -114,6 +114,24 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 
 ## Pseudocode
 *  [here](https://github.com/v5run/DE1-SoC-ComboLock/blob/main/State_Diagrams%20%2B%20Block_Diagram%20-%20ComboLockFSM.pdf)
+
+## Installation
+
+1. Clone the repository using the following
+   ```sh
+   git clone https://github.com/v5run/DiceArt.io.git
+   ```
+2. Install Python 3.12 and Streamlit. Run the following command in CMD to install Streamlit.
+   ```sh
+   pip install streamlit
+   ```
+3. Run the program in any text-editor/terminal using
+   ```js
+   streamlit run main.py
+   ```
+4. Use the .io at your own free will.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
