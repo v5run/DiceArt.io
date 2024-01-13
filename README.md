@@ -53,8 +53,8 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 <br />
 <div align="center">
   <a href="https://github.com/v5run/DiceArt.io/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195602835463737506/barack.png?ex=65b496e9&is=65a221e9&hm=960bbf0418287d38cc1a77b944e8be7ee1b67daf63962cfe56fb2b2084a454a9&" alt="Logo" width="500" height="500">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195602785316655104/final.png?ex=65b496dd&is=65a221dd&hm=24b3fe5e8d69c030e269064aeba6ba608269b31e2f2d0e72367196ad042098f9&" alt="Logo" width="500" height="500">
   </a>
 </div>
 
