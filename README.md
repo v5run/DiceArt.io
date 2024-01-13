@@ -113,7 +113,7 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Pseudocode
-*  [here](https://github.com/v5run/DE1-SoC-ComboLock/blob/main/State_Diagrams%20%2B%20Block_Diagram%20-%20ComboLockFSM.pdf)
+*  The thought process behind this project can be found [here](https://github.com/v5run/DiceArt.io/blob/main/plan.py), as well to note, each helper function in [main.py](https://github.com/v5run/DiceArt.io/blob/main/main.py) has been documented to provide insight of purpose.
 
 ## Installation
 
