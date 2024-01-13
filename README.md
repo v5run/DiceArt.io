@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Dice Art is a unique form of artistic expression that involves creating intricate designs or images using dice as the primary medium. By arranging and manipulating dice in various patterns, artists produce visually captivating pieces that not only showcase creative prowess but also highlight the intersection of gaming culture and visual arts, offering a fresh perspective on the role of randomness and chance in our society. In this project, a user is able to upload an image of their choice and have it visualized using only the six sides of a regular die through leveraging `Python`'s imaging library (`PIL`) and `StreamLit` capabilities. 
+Dice Art is a unique form of artistic expression that involves creating intricate designs or images using dice as the primary medium. By arranging and manipulating dice in various patterns, artists produce visually captivating pieces that not only showcase creative prowess but also highlight the intersection of gaming culture and visual arts, offering a fresh perspective on the role of randomness and chance in our society. In this project, a user is able to upload an image of their choice and have it visualized using only the six sides of a regular die through leveraging `Python`'s imaging library (`PIL`) and `Streamlit` capabilities. 
 
 <br />
 <div align="center">
@@ -74,38 +74,46 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 <!-- GETTING STARTED -->
 ## Functionality
 
-### Opening the Door
-* User sets a desired 4 bit input (X = x3x2x1x0) as the password, or continue with pre-determined password (0110).
-* If X matches the stored 4-bit combination, the door opens.
-* The door remains open until Enter is "pressed" again, resetting the FSM.
+### Features
 
-### Alarm System
+* Accepts images as any type of valid file (.jpeg, .png, .webp, etc.)
+* User-friendly Interface (Streamlit functionalities)
+* Interface utilizes visual effects such as progress bars, on-screen animations, and alerts.
 
-* If two incorrect combinations are entered consecutively, the alarm goes off.
-* The alarm can only be canceled by resetting the system.
+### Procedure - Python
 
-### Changing the Combination
-* When the system is reset, the stored combination is set to '0110'.
-* To change the combination:
+* Image Resizing -> Resize images so dice will fit evenly on the canvas.
+* Creating a canvas -> Create a new canvas, scaled up to account for the size of the die, with image resizing accounted.
+* Greyscaling -> Sectioning parts of the picture off of HEX-value brightness with the help of greyscaling.
+* "Dicing" -> Implement dice in parts of the picture to represent certain brightness levels, with a one-sided die having the lowest brightness and 5 & 6 having the most.
 
-  * Set the input to the old combination.
-  * "Press" Change
-  * If done correctly, output will signal the user to enter a new combination (n on 7 seg. disp.).
-  * Set the 4 input bits to the new combination and "press" Change to store the new value.
+## Streamlit
 
-## Seven-Segment-Display
+* Minimalistic user-interface, requiring little-to-no effort to use, simply Drag & Drop!
+* Interface will illustrate a loading bar, visual animations, and a success bar when finished.
+* The output is a .png type which is available for download if needed.
 
-* Utilize seven-segment display HEX5 to provide output for the circuit.
-* Display '-' if all outputs are neutral.
-* Display 'A' if the alarm is active.
-* Display 'n' if the system prompts for a new combination.
-* Display 'O' if the door/lock is open.
+### Images of the *DiceArt.io* Interface!
+<br />
+<div align="center">
+  <a href="https://github.com/v5run/DiceArt.io/">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195612269338431528/image.png?ex=65b49fb2&is=65a22ab2&hm=c76f0f4506c86351751d74e643188acb5aabebd1a9054c3ab2668c1d3f8a6ed1&" alt="Logo" width="500" height="250">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195613086137192448/image.png?ex=65b4a075&is=65a22b75&hm=245145170fde69865327c2927f754fff64cf3ff57813a76925d3f12266bc31b3&" alt="Logo" width="500" height="250">
+  </a>
+</div>
+
+<br />
+<div align="center">
+  <a href="https://github.com/v5run/DiceArt.io/">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195613353360502794/image.png?ex=65b4a0b4&is=65a22bb4&hm=f6b3a247e40199464aac46d1d54b3fc343e0026945d75a63e9a9155af384c810&" alt="Logo" width="500" height="250">
+    <img src="https://cdn.discordapp.com/attachments/861650755555295255/1195612841743482900/image.png?ex=65b4a03a&is=65a22b3a&hm=8cd9537ef0de76110d83f04fe98e0fd2559f94af1a9757462c74cb47fe2e61a1&" alt="Logo" width="500" height="250">
+  </a>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Moore FSM State Design
-* Analyzes machine behaviour and simplifies required states
-* See state diagram & block diagram [here](https://github.com/v5run/DE1-SoC-ComboLock/blob/main/State_Diagrams%20%2B%20Block_Diagram%20-%20ComboLockFSM.pdf)
+## Pseudocode
+*  [here](https://github.com/v5run/DE1-SoC-ComboLock/blob/main/State_Diagrams%20%2B%20Block_Diagram%20-%20ComboLockFSM.pdf)
 
 
 <!-- CONTACT -->
