@@ -249,7 +249,7 @@ class DiceArt:
         my_bar.progress(p_complete, text=progresstext)
 
         #resize image back to original length and width to maintain proportion
-        self.resizer("final.png",image.size, "final.png")
+        self.resizer("final.png",(image.size[0], image.size[1]), "final.png")
 
         return None
 
