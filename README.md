@@ -139,7 +139,7 @@ Dice Art is a unique form of artistic expression that involves creating intricat
 
 Varun Pathak - [@LinkedIn](https://www.linkedin.com/in/varun-pathak-869351252/) - pathav4@mcmaster.ca
 
-Project Link: [https://github.com/v5run/DE1-SoC-ComboLock](https://github.com/v5run/DE1-SoC-ComboLock)
+Project Link: [https://github.com/v5run/DiceArt.io](https://github.com/v5run/DiceArt.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
